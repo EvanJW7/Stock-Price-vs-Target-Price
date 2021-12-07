@@ -1,5 +1,5 @@
-# StocksOnSale
-This program compares a stock's average target price with its current trading price.
+# Stocks On Sale
+This program compares a stock's average analyst target price with its current trading price.
 
     import yfinance as yf 
     print ("{:<1} {:>17} {:>16} {:>13} {:>18} {:>11} {:>19}".format('Stock','Current Price','Target Price','Discount','Total Opinions', 'Rating', 'Recommendation'))
