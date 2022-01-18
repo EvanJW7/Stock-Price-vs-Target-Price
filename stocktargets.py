@@ -2,7 +2,9 @@ import yfinance as yf
 print ("{:<1} {:>17} {:>16} {:>13} {:>18} {:>11} {:>19}".format('Stock','Current Price','Target Price','Discount','Total Opinions', 'Rating', 'Recommendation'))
 print('---------------------------------------------------------------------------------------------------------')
 #ENTER ANY NUMBER OF STOCKS 
-stocks = ['AMZN', 'TSLA', 'SPOT', 'PYPL', 'SNAP', 'ZM', 'ROKU', 'DKNG', 'TFX', 'TWLO', 'EXAS', 'COUP', 'RBLX']
+stocks = ['AMZN', 'TSLA', 'SPOT', 'PYPL', 'SNAP', 'ZM', 'ROKU', 'DKNG', 'TFX', 'TWLO', 'EXAS', 'COUP', 'MSFT',
+         'NFLX', 'AMD', 'NVDA', 'SHOP', 'CRWD', 'TMUS', 'FDX', 'UPS', 'SE', 'TXG', 'MU', 'QCOM', 'FB', 'LI', 
+          'SQ', 'UPWK', 'PYPL', 'SNOW', 'VEEV', 'SPOT', 'AAPL', 'RBLX', 'XOM', 'F', 'GE', 'GM', 'JPM', 'BAC']
 for stock in stocks:
         try:
             stock = yf.Ticker(stock)
